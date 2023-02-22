@@ -111,5 +111,5 @@ void msgerror(char *name, int cicles, char **command)
 	write(STDOUT_FILENO, &c, 1);
 	write(STDOUT_FILENO, ": ", 2);
 	write(STDOUT_FILENO, command[0], _strlen(command[0]));
-	write(STDOUT_FILENO, ": not found\n", 12);
+	write(STDOUT_FILENO, ": not found\n", 12)
 }
