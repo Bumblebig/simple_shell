@@ -46,6 +46,6 @@ void free_exit(char **command)
 	if (command[i] == NULL)
 		free(command[i]);
 	free(command);
-	exit(EXIT_FAILURE)
+	exit(EXIT_FAILURE);
 
 }
