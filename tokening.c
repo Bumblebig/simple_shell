@@ -41,5 +41,5 @@ char **tokening(char *buffer, const char *s)
 		i++;
 	}
 	commands[i] = NULL;
-	return (commands);
+	return (commands)
 }
