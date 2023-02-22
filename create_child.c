@@ -53,6 +53,6 @@ int change_dir(const char *path)
 		perror(path);
 		return (98);
 	}
-	return (1);
+	return (1)
 
 }
